@@ -22,7 +22,7 @@ For quick testing, a smaller dataset (chest_xray_small/) with 200 images is used
 ⚙️ Setup & Installation
 
 1️⃣ Clone the Repository
-git clone https://github.com/DiagAI/chest-xray-classification.git
+git clone https://github.com/24f1001758/DiagAI.git
 cd chest-xray-classification
 2️⃣ Install Dependencies
 Ensure you have Python 3.8+ and install required libraries:
