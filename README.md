@@ -9,24 +9,39 @@ The dataset used is from Kaggle:
 
 The dataset is structured as follows:
 chest_xray/
+
 │── train/
+
 │   ├── NORMAL/       # Normal Chest X-rays
+
 │   ├── PNEUMONIA/    # Pneumonia Chest X-rays
+
 │── test/
+
 │   ├── NORMAL/
+
 │   ├── PNEUMONIA/
+
 │── val/
+
 │   ├── NORMAL/
+
 │   ├── PNEUMONIA/
+
 For quick testing, a smaller dataset (chest_xray_small/) with 200 images is used.
+
 ⚙️ Setup & Installation
 
 1️⃣ Clone the Repository
+
 git clone https://github.com/SohaFarhana05/DiagAI
 cd chest-xray-classification
+
 2️⃣ Install Dependencies
+
 Ensure you have Python 3.8+ and install required libraries:
 pip install -r requirements.txt
+
 If OpenCV (cv2) doesn't install, use:
 pip install opencv-python
 🚀 Training the Model
@@ -39,13 +54,21 @@ The trained model will be saved as model.pth.
 📜 Directory Structure
 
 chest-xray-classification/
+
 │── chest_xray/            # Full dataset
+
 │── chest_xray_small/      # Small dataset (200 images)
+
 │── model.py               # Model architecture
+
 │── train.py               # Training script
+
 │── predict.py             # Inference script
+
 │── requirements.txt       # Dependencies
+
 │── README.md              # This file
+
 
 📌 Notes
 
@@ -59,4 +82,5 @@ Deploy model using Flask API for real-time predictions.
 👩‍💻 Author
 
 👤 Soha Farhana
+
 📧 Contact: sohafarhana@gmail.com
